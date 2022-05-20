@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html 
+sidebar: sidebar 
+keywords: workflow, mirror, volume, synchronously 
+summary: SANtricity System Manager에서 다음 단계를 수행하여 볼륨을 동기식으로 미러링할 수 있습니다. 
+---
+= 볼륨을 동기식으로 미러링하기 위한 워크플로우
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Manager에서 다음 단계를 수행하여 볼륨을 동기식으로 미러링할 수 있습니다.
+
+image::../media/sam1130-flw-sync-create.gif[sam1130 flw 동기화 생성]

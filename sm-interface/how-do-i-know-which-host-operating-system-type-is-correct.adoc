@@ -1,0 +1,130 @@
+---
+permalink: sm-interface/how-do-i-know-which-host-operating-system-type-is-correct.html 
+sidebar: sidebar 
+keywords: host, operating, system, type, correct 
+summary: '호스트 운영 체제 유형 필드에는 호스트의 운영 체제가 들어 있습니다. 드롭다운 목록에서 권장 호스트 유형을 선택하거나 HCA(Host Context Agent)에서 호스트 및 적절한 호스트 운영 체제 유형을 구성할 수 있도록 허용할 수 있습니다.' 
+---
+= 어떤 호스트 운영 체제 유형이 올바른지 어떻게 알 수 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+호스트 운영 체제 유형 필드에는 호스트의 운영 체제가 들어 있습니다. 드롭다운 목록에서 권장 호스트 유형을 선택하거나 HCA(Host Context Agent)에서 호스트 및 적절한 호스트 운영 체제 유형을 구성할 수 있도록 허용할 수 있습니다.
+
+|===
+| 호스트 운영 체제 유형입니다 | 운영 체제(OS) 및 다중 경로 드라이버 
+
+
+ a| 
+AIX MPIO
+ a| 
+AIX(Advanced Interactive Executive) OS 및 기본 MPIO 드라이버
+
+
+
+ a| 
+AVT_4M
+ a| 
+SGI(Silicon Graphics, Inc.) 전용 다중 경로 드라이버. 자세한 내용은 SGI 설치 설명서를 참조하십시오
+
+
+
+ a| 
+공장 출하 시 기본값
+ a| 
+이는 스토리지 배열의 초기 시작을 위해 예약되어 있으며 특정 호스트에 사용되는 호스트 운영 체제 및 다중 경로 드라이버에 맞게 변경해야 합니다
+
+
+
+ a| 
+HP-UX를 참조하십시오
+ a| 
+기본 다중 경로 드라이버가 있는 HP-UX OS
+
+
+
+ a| 
+Linux(ATTO)
+ a| 
+Linux OS 및 ATTO Technology, Inc. 드라이버(ATTO FC HBA를 사용해야 함)
+
+
+
+ a| 
+Linux(DM-MP)
+ a| 
+Linux OS 및 기본 DM-MP 드라이버
+
+
+
+ a| 
+Linux(PathManager)
+ a| 
+Linux OS와 SGI 독점 다중 경로 드라이버. 자세한 내용은 SGI 설치 설명서를 참조하십시오
+
+
+
+ a| 
+Mac OS
+ a| 
+Mac OS 및 ATTO Technology, Inc. 드라이버입니다
+
+
+
+ a| 
+ONTAP
+ a| 
+FlexArray
+
+
+
+ a| 
+Solaris(버전 11 이상)
+ a| 
+Solaris 11 이상 OS 및 기본 MPxIO 드라이버
+
+
+
+ a| 
+Solaris(버전 10 이하)
+ a| 
+Solaris 10 이하 OS 및 기본 MPxIO 드라이버
+
+
+
+ a| 
+서비스
+ a| 
+IBM SAN 볼륨 컨트롤러
+
+
+
+ a| 
+VMware
+ a| 
+ESXi OS입니다
+
+
+
+ a| 
+Windows 또는 Windows 클러스터형
+ a| 
+DSM 드라이버가 있는 Windows Server OS 및 Windows MPIO
+
+
+
+ a| 
+Windows(ATTO)
+ a| 
+Windows OS 및 ATTO Technology, Inc. 드라이버
+
+|===
+HCA를 설치하고 스토리지를 호스트에 연결한 후 HCA는 입출력 경로를 통해 호스트 토폴로지를 스토리지 컨트롤러로 보냅니다. 호스트 토폴로지에 따라 스토리지 컨트롤러는 자동으로 호스트와 연결된 호스트 포트를 정의한 다음 호스트 유형을 설정합니다.
+
+[NOTE]
+====
+HCA가 권장 호스트 유형을 선택하지 않으면 System Manager에서 호스트 유형을 수동으로 설정해야 합니다.
+
+====

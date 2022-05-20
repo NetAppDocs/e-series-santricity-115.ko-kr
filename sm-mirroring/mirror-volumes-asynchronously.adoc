@@ -1,0 +1,14 @@
+---
+permalink: sm-mirroring/mirror-volumes-asynchronously.html 
+sidebar: sidebar 
+keywords: mirror, volumes, asynchronously 
+summary: 비동기 미러링 기능을 사용하면 볼륨에 두 개의 물리적 복사본이 있을 수 있으므로 데이터 가용성이 용이하고 가동 중지 시간이 최소화됩니다. 모든 비동기식 미러링 관계에는 1차 역할의 볼륨 1개와 2차 역할의 볼륨 1개가 포함됩니다. 
+---
+= 볼륨을 비동기적으로 미러링합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+비동기 미러링 기능을 사용하면 볼륨에 두 개의 물리적 복사본이 있을 수 있으므로 데이터 가용성이 용이하고 가동 중지 시간이 최소화됩니다. 모든 비동기식 미러링 관계에는 1차 역할의 볼륨 1개와 2차 역할의 볼륨 1개가 포함됩니다.
