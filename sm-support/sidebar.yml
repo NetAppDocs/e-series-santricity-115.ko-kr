@@ -69,8 +69,6 @@ entries:
         url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
     - title: NVMe 연결을 관리합니다
       entries:
-      - title: InfiniBand를 통한 NVMe 통계 패키지를 확인하십시오
-        url: "/sm-support/view-nvme-over-infiniband-statistics-support.html"
       - title: NVMe over Fabrics 통계 보기
         url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
     - title: AutoSupport 관리
