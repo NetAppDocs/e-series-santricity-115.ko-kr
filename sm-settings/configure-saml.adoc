@@ -28,11 +28,11 @@ IDP(Identity Provider)는 사용자의 자격 증명을 요청하고 해당 사�
 ====
 SAML 인증 구성은 다단계 절차입니다.
 
-* <<Step 1: Upload the IdP metadata file,1단계: IDP 메타데이터 파일을 업로드합니다>>
-* <<Step 2: Export Service Provider files,2단계: 서비스 제공업체 파일 내보내기>>
-* <<Step 3: Map roles,3단계: 역할 매핑>>
-* <<Step 4: Test SSO login,4단계: SSO 로그인을 테스트합니다>>
-* <<Step 5: Enable SAML,5단계: SAML을 활성화합니다>>
+*  1: Upload the IdP metadata file,1단계: IDP 메타데이터 파일을 업로드합니다
+*  2: Export Service Provider files,2단계: 서비스 제공업체 파일 내보내기
+*  3: Map roles,3단계: 역할 매핑
+*  4: Test SSO login,4단계: SSO 로그인을 테스트합니다
+*  5: Enable SAML,5단계: SAML을 활성화합니다
 
 
 

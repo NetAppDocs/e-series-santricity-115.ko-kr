@@ -26,9 +26,9 @@ summary: 볼륨을 동기식으로 미러링하여 스토리지 어레이 간에
 
 볼륨을 동기식으로 미러링하는 프로세스는 다단계 절차입니다.
 
-* <<Step 1: Select the primary volume>>
-* <<Step 2: Select the secondary volume>>
-* <<Step 3: Select synchronization settings>>
+*  1: Select the primary volume
+*  2: Select the secondary volume
+*  3: Select synchronization settings
 
 
 볼륨은 하나의 미러 관계에만 참여할 수 있습니다.
@@ -59,7 +59,7 @@ summary: 볼륨을 동기식으로 미러링하여 스토리지 어레이 간에
 볼륨 타일에서 볼륨을 선택했고 미러링이 가능한 경우 기본적으로 선택됩니다.
 
 ====
-. Next * 를 선택하고 로 이동합니다 <<Step 2: Select the secondary volume>>.
+. Next * 를 선택하고 로 이동합니다  2: Select the secondary volume.
 
 
 
@@ -99,7 +99,7 @@ summary: 볼륨을 동기식으로 미러링하여 스토리지 어레이 간에
 운영 볼륨보다 큰 용량으로 2차 볼륨을 선택하는 경우 사용 가능한 용량이 운영 볼륨의 크기로 제한됩니다.
 
 ====
-. 다음 * 을 클릭하고 으로 이동합니다 <<Step 3: Select synchronization settings>>.
+. 다음 * 을 클릭하고 으로 이동합니다  3: Select synchronization settings.
 
 
 

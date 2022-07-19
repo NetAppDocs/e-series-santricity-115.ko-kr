@@ -31,9 +31,9 @@ summary: 볼륨을 비동기적으로 미러링하여 원격 스토리지 시스
 
 볼륨을 비동기적으로 미러링하는 프로세스는 다음과 같은 여러 단계로 이루어집니다.
 
-* <<Step 1: Create a mirror consistency group or select an existing one>>
-* <<Step 2: Select the primary volume>>
-* <<Step 3: Select the secondary volume>>
+*  1: Create a mirror consistency group or select an existing one
+*  2: Select the primary volume
+*  3: Select the secondary volume
 
 
 볼륨은 하나의 미러 관계에만 참여할 수 있습니다.
@@ -85,7 +85,7 @@ System Manager가 로컬 스토리지 시스템에 미러 정합성 보장 그�
 ====
 
 
-. Next * 를 선택하고 로 이동합니다 <<Step 2: Select the primary volume>>.
+. Next * 를 선택하고 로 이동합니다  2: Select the primary volume.
 
 
 
@@ -114,7 +114,7 @@ System Manager가 로컬 스토리지 시스템에 미러 정합성 보장 그�
 
 
 
-. Next * 를 선택하고 로 이동합니다 <<Step 3: Select the secondary volume>>.
+. Next * 를 선택하고 로 이동합니다  3: Select the secondary volume.
 
 
 

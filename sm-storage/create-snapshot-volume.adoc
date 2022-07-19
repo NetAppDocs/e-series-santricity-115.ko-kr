@@ -22,10 +22,10 @@ summary: 스냅샷 볼륨을 생성하여 볼륨 또는 스냅샷 정합성 보�
 
 스냅샷 볼륨을 생성하는 프로세스는 여러 단계로 이루어집니다.
 
-* <<Step 1: Review members>>
-* <<Step 2: Assign to host>>
-* <<Step 3: Reserve capacity>>
-* <<Step 4: Edit settings>>
+*  1: Review members
+*  2: Assign to host
+*  3: Reserve capacity
+*  4: Edit settings
 
 
 
@@ -46,7 +46,7 @@ summary: 스냅샷 볼륨을 생성하여 볼륨 또는 스냅샷 정합성 보�
 +
 Review Members * (구성원 검토 *) 대화 상자에서 스냅샷 볼륨으로 변환하기 위해 선택한 볼륨 목록을 검토한 후 * Next * (다음 *)를 클릭합니다.
 
-. 로 이동합니다 <<Step 2: Assign to host>>.
+. 로 이동합니다  2: Assign to host.
 
 
 
@@ -85,8 +85,8 @@ Review Members * (구성원 검토 *) 대화 상자에서 스냅샷 볼륨으로
 
 . 다음 * 을 클릭하고 다음 중 하나를 수행합니다.
 +
-** 스냅샷 볼륨이 읽기/쓰기 상태인 경우 * 용량 검토 * 대화 상자가 나타납니다. 로 이동합니다 <<Step 3: Reserve capacity>>.
-** 스냅샷 볼륨이 읽기 전용인 경우 * 우선 순위 편집 * 대화 상자가 나타납니다. 로 이동합니다 <<Step 4: Edit settings>>.
+** 스냅샷 볼륨이 읽기/쓰기 상태인 경우 * 용량 검토 * 대화 상자가 나타납니다. 로 이동합니다  3: Reserve capacity.
+** 스냅샷 볼륨이 읽기 전용인 경우 * 우선 순위 편집 * 대화 상자가 나타납니다. 로 이동합니다  4: Edit settings.
 
 
 
@@ -128,7 +128,7 @@ Review Members * (구성원 검토 *) 대화 상자에서 스냅샷 볼륨으로
 
 
 . (선택 사항) 스냅샷 정합성 보장 그룹에 대한 스냅샷 볼륨을 생성하는 경우 예약된 용량 후보 테이블에 * 후보 변경 * 옵션이 나타납니다. 후보 변경 * 을 클릭하여 예약된 대체 용량을 선택합니다.
-. 다음 * 을 클릭하고 으로 이동합니다 <<Step 4: Edit settings>>.
+. 다음 * 을 클릭하고 으로 이동합니다  4: Edit settings.
 
 
 
