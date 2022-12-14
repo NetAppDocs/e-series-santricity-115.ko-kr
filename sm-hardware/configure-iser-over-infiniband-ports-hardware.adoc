@@ -19,6 +19,7 @@ summary: 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함된 경우 �
 * 호스트 연결의 IP 주소를 알아야 합니다.
 
 
+.이 작업에 대해
 iSER은 * Hardware * 페이지 또는 메뉴에서 * Settings[System] 메뉴에서 InfiniBand 구성을 통해 액세스할 수 있습니다. 이 작업에서는 * 하드웨어 * 페이지에서 포트를 구성하는 방법에 대해 설명합니다.
 
 [NOTE]

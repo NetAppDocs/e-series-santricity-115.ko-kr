@@ -14,6 +14,7 @@ summary: 스토리지 어레이에 대한 NVMe over Fabrics 연결에 대한 데
 [role="lead"]
 스토리지 어레이에 대한 NVMe over Fabrics 연결에 대한 데이터를 볼 수 있습니다.
 
+.이 작업에 대해
 System Manager에는 이러한 유형의 NVMe over Fabrics 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
 
 * * NVMe 하위 시스템 통계 * -- 시간 초과 및 연결 실패를 포함하여 NVMe 컨트롤러에 대한 통계를 제공합니다.
